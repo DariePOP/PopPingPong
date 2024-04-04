@@ -29,7 +29,7 @@ CLR          14 LightYellow
 GameConfort   5
 GameSpeed    75 More-is-Less
 DeltaSpeed   10 Fast & Slow Delta
-StartLevel    0 1-to-0
+StartLevel    1 1-to-0
 StartBalls    9 Default: Width/2 -2
 
 #INTERNALS
