@@ -3,7 +3,7 @@ https://joinup.ec.europa.eu/collection/eupl/eupl-text-eupl-12
 
 All the code and it's components
 are licensed under compatible license agreements
-and are free to install, use, copy, modify and redistribute.
+and are free to install, use, copy, modify and/or redistribute.
 
 PopPingPong uses, if available, LibSDL2.
 https://www.libsdl.org/
