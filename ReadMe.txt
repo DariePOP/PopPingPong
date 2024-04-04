@@ -1,7 +1,7 @@
 PopPingPong is licensed under the EUPL
 https://joinup.ec.europa.eu/collection/eupl/eupl-text-eupl-12
 
-All the software ans it's components
+All the code and it's components
 are licensed under compatible license agreements
 and are free to install, use, copy, modify and redistribute.
 
