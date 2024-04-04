@@ -1,3 +1,5 @@
+https://www.libsdl.org/
+
 Linux:
     install LibSDL2 according to your distrib
     (yum, apt, pacman, emerge, apk etc.)
