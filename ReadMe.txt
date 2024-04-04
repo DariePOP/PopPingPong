@@ -28,3 +28,6 @@ https://www.freepascal.org/download.html
 Or Install FreePascal 3.2.+
 and run using InstantFPC:
 instantfpc -B -FlSDL2 -FuSDL2 ppp.pas
+
+CREDITS:
+  Thank you, Nikita, for inspiring me :)
