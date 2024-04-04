@@ -1,0 +1,63 @@
+#COLORS       ! There are no light color backgrounds
+Black_________0
+DarkBlue______1
+DarkGreen_____2
+DarkCyan______3
+DarkRed_______4
+DarkMagenta___5
+DarkYellow____6
+LightGray_____7
+DarkGray______8
+LightBlue_____9
+LightGreen___10
+LightCyan____11
+LightRed_____12
+LightMagenta_13
+LightYellow__14
+White________15
+
+#RESERVED CHARS {[(|)]}
+
+#SCREEN
+Width        80
+Height       25
+#CLRORS
+BGR           0 Black
+CLR          14 LightYellow
+
+#GAME
+GameConfort   5
+GameSpeed    75 More-is-Less
+DeltaSpeed   10 Fast & Slow Delta
+StartLevel    0 1-to-0
+StartBalls    9 Default: Width/2 -2
+
+#INTERNALS
+#
+BALL          o
+#LEFT
+Team+         CYAN
+BGR_Team+     3 DarkCyan
+CLR_Team+    11 LightCyan
+#RIGHT
+Team-         MAGENTA
+BGR_Team-     5 DarkMagenta
+CLR_Team-    13 LightMagenta
+
+#          SEXY
+#0 BITMASK 0000, PASS-THROUGH
+#1 BITMASK 0001, CHANGE-Y
+#2 BITMASK 0010, CHANGE-X
+#3 BITMASK 0011, CHANGE X & Y
+#4 BITMASK 0100, ERASEABLE, PASS-THROUGH
+#5 BITMASK 0101, ERASEABLE, CHANGE-Y
+#6 BITMASK 0110, ERASEABLE, CHANGE-X
+#7 BITMASK 0111, ERASEABLE, CHANGE X & Y
+#8 BITMASK 1000, SPECIAL, FAST
+#9 BITMASK 1001, SPECIAL, SLOW
+#A BITMASK 1010, SPECIAL, ELONG
+#B BITMASK 1011, SPECIAL, SHORT
+#C BITMASK 1100, SPECIAL, ERASEABLE, BREAK
+#D BITMASK 1101, SPECIAL, ERASEABLE, BALLS
+#E BITMASK 1110, SPECIAL, ERASEABLE, GLUE
+#F BITMASK 1111, SPECIAL, ERASEABLE, FIRE

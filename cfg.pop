@@ -1,0 +1,81 @@
+#
+#PERMANENT
+#
+
+#BRIK 0, BITMASK 0000, PASS-THROUGH
+BGR0         2 DarkGreen
+
+#BRIK 1, BITMASK 0001, CHANGE-Y
+BGR1         2 DarkGreen
+CHR1         -
+CLR1        14 LightYellow
+#BRIK 2, BITMASK 0010, CHANGE-X
+BGR2         2 DarkGreen
+CHR2         |
+CLR2        14 LightYellow
+#BRIK 3, BITMASK 0011, CHANGE X & Y
+BGR3         2 DarkGreen
+CHR3         +
+CLR3        14 LightYellow
+
+#
+#ERASEABLE
+#
+
+#BRIK 4, BITMASK 0100, ERASEABLE, PASS-THROUGH
+BGR4         6 DarkYellow
+
+#BRIK 5, BITMASK 0101, ERASEABLE, CHANGE-Y
+BGR5         6 DarkYellow
+CHR5         -
+CLR5        14 LightYellow
+#BRIK 6, BITMASK 0110, ERASEABLE, CHANGE-X
+BGR6         6 DarkYellow
+CHR6         |
+CLR6        14 LightYellow
+#BRIK 7, BITMASK 0111, ERASEABLE, CHANGE X & Y
+BGR7         6 DarkYellow
+CHR7         +
+CLR7        14 LightYellow
+
+#
+#SPECIAL PERMANENT
+#
+
+#BRIK 8, BITMASK 1000, FAST
+BGR8         1 DarkBlue
+CHR8         >
+CLR8        14 LightYellow
+#BRIK 9, BITMASK 1001, SLOW
+BGR9         1 DarkBlue
+CHR9         <
+CLR9        14 LightYellow
+#BRIK A, BITMASK 1010, ELONG
+BGRA         1 DarkBlue
+CHRA         +
+CLRA        14 LightYellow
+#BRIK B, BITMASK 1011, SHORT
+BGRB         1 DarkBlue
+CHRB         -
+CLRB        14 LightYellow
+
+#
+#SPECIAL ERASEABLE
+#
+
+#BRIK C, BITMASK 1100, BREAK
+BGRC         4 DarkRed
+CHRC         *
+CLRC        14 LightYellow
+#BRIK D, BITMASK 1101, BALLS
+BGRD         4 DarkRed
+CHRD         +
+CLRD        14 LightYellow
+#BRIK E, BITMASK 1110, GLUE
+BGRE         4 DarkRed
+CHRE         ~
+CLRE        14 LightYellow
+#BRIK F, BITMASK 1111, FIRE
+BGRF         4 DarkRed
+CHRF         -
+CLRF        14 LightYellow
