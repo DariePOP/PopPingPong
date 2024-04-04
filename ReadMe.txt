@@ -5,7 +5,7 @@ All the code and it's components
 are licensed under compatible license agreements
 and are free to install, use, copy, modify and/or redistribute.
 
-PopPingPong uses, if available, LibSDL2.
+PopPingPong uses, if available, LibSDL2
 https://www.libsdl.org/
 
 You may install (if not already done so) LibSDL2 for your platform,
@@ -21,3 +21,10 @@ MacOSX
 
 Windows
     nothing to do
+
+Compile using FreePascal 3.2.2
+https://www.freepascal.org/download.html
+
+Or Install FreePascal 3.2.+
+and run using InstantFPC:
+instantfpc -B -FlSDL2 -FuSDL2 ppp.pas
