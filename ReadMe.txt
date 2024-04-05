@@ -1,3 +1,10 @@
+To download for Windows, click here:
+https://github.com/DariePOP/PopPingPong/raw/main/builds/ppp-windows.zip
+
+Extract & enjoy :)
+
+********************************************************************************
+
 PopPingPong is licensed under the EUPL
 https://joinup.ec.europa.eu/collection/eupl/eupl-text-eupl-12
 
