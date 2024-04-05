@@ -20,7 +20,8 @@ MacOSX
     (or using brew)
 
 Windows
-    copy the SDL2.dll into the sources folder
+    copy the corresponding SDL2.dll at the root of the sources folder
+    the dll version must be compatible with the freepascal version
 
 Compile using FreePascal 3.2.2
 https://www.freepascal.org/download.html
