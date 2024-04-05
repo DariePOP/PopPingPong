@@ -147,10 +147,7 @@ begin
   textcolor(white);
   SetCursor(true);
   clrscr;
-  if sdl then begin
-    sdl_destroyWindow(win);
-    sdl_quit;
-  end;
+  if sdl then sdl_destroyWindow(win);
   halt;
 end;
 procedure keyAdd(key: byte);
