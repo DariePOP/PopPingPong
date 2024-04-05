@@ -29,5 +29,8 @@ Or Install FreePascal 3.2.+
 and run using InstantFPC:
 instantfpc -B -FlSDL2 -FuSDL2 ppp.pas
 
+Uses SDL2-for-Pascal unit(s)
+https://github.com/PascalGameDevelopment/SDL2-for-Pascal
+
 CREDITS:
   Thank you, Nikita, for inspiring me :)
