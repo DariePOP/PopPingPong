@@ -146,7 +146,7 @@ begin
   textbackground(black);
   textcolor(white);
   SetCursor(true);
-  //clrscr;
+  clrscr;
   if sdl then begin
     sdl_destroyWindow(win);
     sdl_quit;
