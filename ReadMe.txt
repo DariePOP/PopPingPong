@@ -31,7 +31,7 @@ Windows
     the dll version must be compatible with the freepascal version
 
 Compile using FreePascal 3.2.2
-https://www.freepascal.org/download.html
+https://www.freepascal.org/
 
 Or Install FreePascal 3.2.+
 and run using InstantFPC:
