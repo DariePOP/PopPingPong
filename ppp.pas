@@ -820,9 +820,9 @@ var
   s: string;
 begin
   textcolor(white);
-  for i := 1 to W -24 do begin
+  for i := 1 to W -32 do begin
     gotoxy(i, H +1);
-    write(' Licensed under the EUPL');
+    write(' @COPYLEFT: ALL WRONGS DESERVED.');
   end;
   textcolor(CLR);
   gotoxy(1, H +1);
